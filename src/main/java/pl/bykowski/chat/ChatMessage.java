@@ -1,7 +1,6 @@
 package pl.bykowski.chat;
 
 public class ChatMessage {
-
     private String value;
     private String user;
     private String userColor;
