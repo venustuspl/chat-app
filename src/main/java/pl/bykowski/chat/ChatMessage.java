@@ -4,6 +4,7 @@ public class ChatMessage {
     private String value;
     private String user;
     private String userColor;
+    private String date;
 
     public String getUserColor() {
         return userColor;
@@ -33,6 +34,24 @@ public class ChatMessage {
         this.value = value;
     }
 
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
     public ChatMessage() {
+    }
+
+    @Override
+    public String toString() {
+        return "ChatMessage{" +
+                "value='" + value + '\'' +
+                ", user='" + user + '\'' +
+                ", userColor='" + userColor + '\'' +
+                ", date='" + date + '\'' +
+                '}';
     }
 }
