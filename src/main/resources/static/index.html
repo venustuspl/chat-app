@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello chat!!!</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body onload="connect()" >
-<div>
-    <label>User:</label>
+<div class="user">
+    <label>User:       </label>
     <input id="user" type="text"/><br>
-
     <label>You message:</label>
     <input id="messageToSend" type="text"/><br>
 
-    <button onclick="sendMessage()">Send</button>
+    <button id="sendbutton" onclick="sendMessage()">Send</button>
+</div>
+<div class="messages">
     <p id="reponse"></p>
 </div>
 <script src="js.js"></script>

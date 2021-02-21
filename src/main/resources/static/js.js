@@ -1,6 +1,13 @@
 var client = null;
 var color;
 var date;
+var input = document.getElementById("messageToSend");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("sendbutton").click();
+  }
+});
 
 function showMessage(value, user, userColor, date) {
     var newResponse = document.createElement('p');
