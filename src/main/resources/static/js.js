@@ -5,6 +5,7 @@ var date;
 function showMessage(value, user, userColor, date) {
     var newResponse = document.createElement('p');
     newResponse.style.color = userColor;
+    newResponse.style.fontSize = "x-large";
     newResponse.appendChild(document.createTextNode(date));
     newResponse.appendChild(document.createTextNode(" "));
     newResponse.appendChild(document.createTextNode(user));
@@ -12,6 +13,8 @@ function showMessage(value, user, userColor, date) {
     newResponse.appendChild(document.createTextNode(value));
     var respone = document.getElementById('reponse');
     respone.appendChild(newResponse);
+    var oBr = document.createElement("br");
+    document.appendChild(oBr);
 }
 
 function connect() {
