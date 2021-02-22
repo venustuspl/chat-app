@@ -1,7 +1,8 @@
 
 
 .user {
-  align-self: center;
+  display: flex;
+  align-items: center;
 }
 
 .messages {

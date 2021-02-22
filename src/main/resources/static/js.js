@@ -1,6 +1,7 @@
 var client = null;
 var color;
 var date;
+
 var input = document.getElementById("messageToSend");
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
@@ -11,17 +12,17 @@ input.addEventListener("keyup", function(event) {
 
 function showMessage(value, user, userColor, date) {
     var newResponse = document.createElement('p');
+    var oBr = document.createElement("br");
     newResponse.style.color = userColor;
     newResponse.style.fontSize = "x-large";
     newResponse.appendChild(document.createTextNode(date));
-    newResponse.appendChild(document.createTextNode(" "));
+    newResponse.appendChild(document.createTextNode("\n"));
     newResponse.appendChild(document.createTextNode(user));
     newResponse.appendChild(document.createTextNode(": "));
     newResponse.appendChild(document.createTextNode(value));
     var respone = document.getElementById('reponse');
     respone.appendChild(newResponse);
-    var oBr = document.createElement("br");
-    document.appendChild(oBr);
+    respone.appendChild(oBr);
 }
 
 function connect() {
