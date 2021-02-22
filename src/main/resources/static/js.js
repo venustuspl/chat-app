@@ -10,12 +10,12 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
-function showMessage(value, user, userColor, date) {
+function showMessage(value, user, userColor, messageDate) {
     var newResponse = document.createElement('p');
     var oBr = document.createElement("br");
     newResponse.style.color = userColor;
     newResponse.style.fontSize = "x-large";
-    newResponse.appendChild(document.createTextNode(date));
+    newResponse.appendChild(document.createTextNode(messageDate));
     newResponse.appendChild(document.createTextNode("\n"));
     newResponse.appendChild(document.createTextNode(user));
     newResponse.appendChild(document.createTextNode(": "));
@@ -56,7 +56,7 @@ function sendMessage() {
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
-    var color = '#';
+    color = '#';
     for (var i = 0; i < 6; i++) {
         color += letters[Math.floor(Math.random() * 16)];
     }
