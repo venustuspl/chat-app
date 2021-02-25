@@ -11,12 +11,6 @@ L
 src/frontend/babel.config.js,f\f\ffcd7c5b965fd56e06bcfd43c041ea8fa9ee689a
 8
 chat.iml,b\f\bff82607fb3d7a0310dbee5d3f20bd6f5f780f98
-c
-3src/main/java/pl/venustus/chat/ChatApplication.java,b\1\b12b94acb53f8963796d3294ee6a63c90a71c717
-_
-/src/main/java/pl/venustus/chat/ChatMessage.java,8\e\8ed55213ef3ba935ff0bd1df4bb244aae0a31c5c
-i
-9src/main/java/pl/venustus/chat/ChatMessageController.java,b\c\bcf5eb3d3b69e926bca986b44dbbfa3d84bc0c65
 Z
 *src/frontend/src/components/HelloWorld.vue,c\a\cae3d9618c22d412363990852b4abd9fab996c73
 N
@@ -161,8 +155,6 @@ i
 9.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml,9\a\9a1f3207f970c71845551528467e0a9cd1192101
 b
 2.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml,8\9\89138249277c0cc4d3b2591dbd84d7c73184b9e6
-e
-5src/main/java/pl/venustus/chat/MessageController.java,6\f\6f4b579bf659540b0abb9bade82d5a69f53c5b5f
 I
 src/frontend/package.json,7\1\716491431061460d9b2238c490f316ac13ae261d
 N
@@ -171,7 +163,5 @@ F
 src/frontend/README.md,9\7\976cc643a4cab87dceec49b452402e442d2f823d
 J
 src/frontend/vue.config.js,2\b\2b7f06564ae919dc26a56b0f89d1ca866d35ebb8
-c
-3src/main/java/pl/venustus/chat/WebSocketConfig.java,3\6\36923f51d2a91a210dbe584f00fa6af37a7082b2
 h
 8src/test/java/pl/venustus/chat/ChatApplicationTests.java,c\d\cd22d774c48c1e2d0a42d7cdb8bf0a82620d1240

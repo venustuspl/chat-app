@@ -1,0 +1,11 @@
+
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.messages {
+  border: 10px solid powderblue;
+  margin: 50px;
+}
